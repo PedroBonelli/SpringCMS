@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.indigo.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>SPRINGCMS - PAGE CREATION</title>
+    
+</head>
+<body>
+    <header class="container">
+        <nav>
+            <ul>
+                <li><strong><a href="../index.html" class="contrast">SpringCMS</a></strong></li>
+            </ul>
+            <ul> 
+                <li><a href="#">Páginas</a></li>
+                <li><a href="/pages/pageCreation.html">Criar</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="container grid">
+
+        <div id="toolsDiv" class="">
+            <h1>Tools</h1>
+
+            <section>
+                <h2>Content types</h2>
+                <div role="group">
+                    <button id="createH1Content" class=""><kbd>h1</kbd></button>
+                    <button id="createH2Content" class=""><kbd>h2</kbd></button>
+                    <button id="createPContent" class=""><kbd>p</kbd></button>
+                    <button id="createAContent" class=""><kbd>a</kbd></button>
+                </div>
+            </section>
+
+            <section>
+                <h2>Actions</h2>
+                <div role="group">
+                    <button id="salvarPagina" class="">Save page</button>
+                </div>
+            </section>    
+            
+        </div>
+
+        <div>
+            <h1>Content</h1>
+            <div id="pageCreationDiv" class=" scrollable">
+            </div>
+        </div>
+    </main>
+
+    <footer class="container">
+        <h4>Developed by Pedro Bonelli</h2>
+    </footer>
+
+    
+    
+    <script src="/features/PageCreation.js" type="module"></script>  
+</body>
+</html>
